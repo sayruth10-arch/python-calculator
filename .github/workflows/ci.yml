@@ -49,8 +49,8 @@ jobs:
       - name: Test with pytest
         run: |
           pytest tests/
-          
-          trivy-scan:
+    
+trivy-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
